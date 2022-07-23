@@ -1,1 +1,93 @@
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Assigment #2
+        </title>
+        <style>
+            h1,h2{color: chartreuse;}
+            body{background-image: url("image/2.png");}
+            input {background-color:red; height: 30px;border-radius: 50px;color: aliceblue;
+              }
+              table{background-image:url("image/1.png") ; color: aliceblue;}
+label{color:white; font-size: 20px;}
+#submit{background-color: blue; width: 100px;}
+        </style>
+    </head>
+    <body>
+        <h1>
+            Assigment #2
+        </h1>
+        <h2>Signup Form</h2>
+        <form action="#" method="get">
+            <label  for="name">
+                Name :
+            </label><br>
+            <input type="text" name="name" placeholder="Name" id="name"><br>
+            <br>  <label for="email">
+                Email :
+            </label ><br>
+            <input type="email" name="email" placeholder="Email" id="email"><br> <br>
+            <label for="Password">
+                Password :
+            </label ><br>
+            <input type="password" name="Password" placeholder="Password" id="Password"><br>
+            <br>  <label for="Phone">
+                Phone no :
+            </label ><br>
+            <input type="tel" name="Phone" placeholder="059*******" id="Phone"> <br>
+            <br>    <label for="date">
+              Date of Birth :
+            </label ><br>
+            <input type="date" name="date" id="date"> <br>
+            <br>    <label>
+                 Gender :
+            </label><br>
+            
+              <input type="radio" name="gender" id="male"> 
+              <label for="male">
+                male
+                            </label>
+            
+              <input type="radio" name="gender" id="female"> 
+              <label for="female">
+                Female
+                            </label><br>
+                            <br> <label for="bio">Bio :</label><br>
+                                <textarea id="bio" rows="5" clos="25">
+write your bio here ...
+                            </textarea><br>
+                            <br>    <input type="checkbox" name="accept" id="accept"> 
+                            <label for="accept">
+                              accept privacy
+                                        <br>  </label> <br>
+                                         <input type="submit" name="submit" value="Signup" id="submit"> 
+                                          <hr>
+                                          <h2>Table</h2><br>
+                                          <table border="2">
+                                            <tr>
+                                                <th>
+                                                Product
+                                                </th>
+                                                <th>
+                                                    Flavors
+                                                    </th>
+                                            </tr>
+                                            <tr>
+                                                <td rowspan="3">Milk</td>
+                                            <td>Almond</td>
+                                            </tr>
+                                            <tr>
+                                                
+                                            <td>Mango</td>
+                                            </tr><tr>
+                                            <td>Chocolate</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2">These are exclusive flavors</td>
+                                            </tr>
+                                          </table>
+              
+        </form>
+    </body>
+</html>
